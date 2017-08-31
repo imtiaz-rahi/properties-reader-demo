@@ -1,0 +1,24 @@
+## https://www.mkyong.com/spring-boot/spring-boot-configurationproperties-example/
+## https://props2yaml-codearte2foss.rhcloud.com/conversion
+tenantconfig:
+  mkyong:
+    name: Test tenant YML
+    url: jdbc:postgresql://postcode.metafour.lan:5432/tenant_1
+    maps:
+      dhaka:
+        name: Dhaka
+        path: /dhaka
+        title: Dhaka city
+      london:
+        name: London
+        path: /london
+        title: London city
+    menus:
+      - name: Home
+        path: /
+        title: Home
+      - name: Login
+        path: /login
+        title: Login
+    password: blahpass
+    username: blahuser
